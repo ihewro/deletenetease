@@ -2,7 +2,7 @@
 from pyquery import PyQuery as q
 from datetime import datetime
 
-path_to_html_file = "content_full.html"
+path_to_html_file = "content.html"
 f_open = open(path_to_html_file)
 content = ""
 line = f_open.readline()
